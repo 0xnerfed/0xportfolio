@@ -3,17 +3,17 @@ import localFont from "next/font/local";
 export const JacquesSans = localFont({
     src: [
         {
-            path: "public/font/font/ppneuemontreal-Regular.woff2",
+            path: "public/assets/font/ppneuemontreal-Regular.woff2",
             weight: "400",
             style: "normal",
         },
         {
-            path: "public/font/font/ppneuemontreal-Medium.woff2",
+            path: "public/assets/font/ppneuemontreal-Medium.woff2",
             weight: "500",
             style: "normal",
         },
         {
-            path: "public/font/font/ppneuemontreal-Bold.woff2",
+            path: "public/assets/font/ppneuemontreal-Bold.woff2",
             weight: "700",
             style: "normal",
         }
@@ -34,17 +34,17 @@ export const JacquesSans = localFont({
 export const JacquesMono = localFont({
     src: [
         {
-            path: "public/font/InstagramSans-Regular.woff2",
+            path: "public/assets/font/InstagramSans-Regular.woff2",
             weight: "400",
             style: "monospace",
         },
         {
-            path: "public/font/InstagramSans-Medium.woff2",
+            path: "public/assets/font/InstagramSans-Medium.woff2",
             weight: "500",
             style: "monospace",
         }
     ],
-    variable: "--font-mono",
+    variable: "--font-jacques-mono",
     display: "swap",
     fallback: [
         "-apple-system",
