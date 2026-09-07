@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import { JacquesSans,JacquesMono } from "../font";
+import { JacquesSans, JacquesMono } from "@/font";
 import "./globals.css";
+import Navbar from "./component/Navbar/Navbar"
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -13,7 +14,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="en"
       className={`${JacquesSans.variable} ${JacquesMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body>
+        <Navbar/>
+        {children}
+      </body>
     </html>
   );
 }
