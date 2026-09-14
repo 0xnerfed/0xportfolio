@@ -129,7 +129,7 @@ export default function About() {
             id="work-experience-heading"
             className="text-xl font-medium tracking-tight"
           >
-            Select work
+            Selected work
           </h2>
         </div>
 
